@@ -74,7 +74,7 @@ flowchart LR
 |-------|------------|-----------|--------------|
 | **Sensor backend** | [jellyfin-media-card-sensors](https://github.com/a4happy20/jellyfin-media-card-sensors) | ✅ Yes | Feeds the card its list of media items |
 | **Sensor backend** | [sonarr-calendar-card-sensors](https://github.com/a4happy20/sonarr-calendar-card-sensors) | ✅ Yes | Feeds the card its list of media items |
-| **Sensor backend** | [game-library-card-sensors](https://github.com/a4happy20/game-library-card-sensors) | ✅ Yes | Feeds the card its list of media items |
+| **Sensor backend** | [games-library-card-sensors](https://github.com/a4happy20/games-library-card-sensors) | ✅ Yes | Feeds the card its list of media items |
 | **Play script** | [jellyfin-media-card-play](https://github.com/a4happy20/jellyfin-media-card-play) | Optional | Handles what happens when you tap an item |
 | **Play script** | [game-library-card-play](https://github.com/a4happy20/jellyfin-media-card-play) | Optional | Handles what happens when you tap an item |
 
@@ -83,7 +83,7 @@ flowchart LR
 > Setup is simple. Just add the sensors, enter your api & url.
 > Use the Jellyfin **[sensor backend](https://github.com/a4happy20/jellyfin-media-card-sensors)**
 > And/Or the Sonarr **[sensor backend](https://github.com/a4happy20/sonarr-calendar-card-sensors)**
-> And/Or the Games **[sensor backend](https://github.com/a4happy20/game-library-card-sensors)**
+> And/Or the Games **[sensor backend](https://github.com/a4happy20/games-library-card-sensors)**
 
 <br>
 
@@ -143,7 +143,7 @@ This card renders a **template sensor that you provide**. Its configured attribu
 
 You don't have to build that by hand — the Jellyfin **[sensor backend](https://github.com/a4happy20/jellyfin-media-card-sensors)**
 or the Sonarr **[sensor backend](https://github.com/a4happy20/sonarr-calendar-card-sensors)**
-or the Games **[sensor backend](https://github.com/a4happy20/game-library-card-sensors)** produces it for you,
+or the Games **[sensor backend](https://github.com/a4happy20/games-library-card-sensors)** produces it for you,
 and its README walks you through pointing it at your own instance.
 The optional **[play script](https://github.com/a4happy20/jellyfin-media-card-play)**
 For games **[play script](https://github.com/a4happy20/jellyfin-media-card-play)**
