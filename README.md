@@ -76,7 +76,7 @@ flowchart LR
 | **Sensor backend** | [sonarr-calendar-card-sensors](https://github.com/a4happy20/sonarr-calendar-card-sensors) | ✅ Yes | Feeds the card its list of media items |
 | **Sensor backend** | [games-library-card-sensors](https://github.com/a4happy20/games-library-card-sensors) | ✅ Yes | Feeds the card its list of media items |
 | **Play script** | [jellyfin-media-card-play](https://github.com/a4happy20/jellyfin-media-card-play) | Optional | Handles what happens when you tap an item |
-| **Play script** | [game-library-card-play](https://github.com/a4happy20/jellyfin-media-card-play) | Optional | Handles what happens when you tap an item |
+| **Play script** | [games-library-card-play](https://github.com/a4happy20/games-library-card-play) | Optional | Handles what happens when you tap an item |
 
 > [!TIP]
 > New here? You need at least one compatible sensor for the card to work.
@@ -146,7 +146,7 @@ or the Sonarr **[sensor backend](https://github.com/a4happy20/sonarr-calendar-ca
 or the Games **[sensor backend](https://github.com/a4happy20/games-library-card-sensors)** produces it for you,
 and its README walks you through pointing it at your own instance.
 The optional **[play script](https://github.com/a4happy20/jellyfin-media-card-play)**
-For games **[play script](https://github.com/a4happy20/jellyfin-media-card-play)**
+For games **[play script](https://github.com/a4happy20/games-library-card-play)**
 handles tap-to-play.
 
 <br>
@@ -249,6 +249,7 @@ grid_options:
 | `attribute` | string | `episodes` | Attribute on the sensor containing the list |
 | `play_script` | string | `script.jellyfin_play_episode` | Script called on tap |
 | `id_field` | string | `episode_id` | Field passed to the play script as the item ID. See the [play script](https://github.com/a4happy20/jellyfin-media-card-play). |
+| `id_field` | string | `game` | Field passed to the play script as the item ID. See the [play script](https://github.com/a4happy20/games-library-card-play). |
 | `title` | string | `""` | Card header title |
 | `options_entity` | string | `"input_select.jellyfin_media_player"` | button that shows an entity's more info |
 | `badge_field` | string | `""` | Example "library" the badge will display the library of the item |
